@@ -26,8 +26,13 @@ body {
     background-color: lightgray;
     height: 120px;
     color: black;
-    font-size: 24pt;
-    text-align: right;
+    font-size: 28pt;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .keypads {
@@ -85,12 +90,14 @@ span {
 
 .operator {
     width: 80%;
+    color: orange;
 }
 
 .number {
     padding: 20px;
+    width: 40px;
 }
 
 .clear {
-    padding: 18px 4px;
+    padding: 20px 8px;
 }
